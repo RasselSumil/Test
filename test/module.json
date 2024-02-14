@@ -1,0 +1,29 @@
+{
+  "id": "test",
+  "title": "test",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Happy_Pika",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "test",
+      "label": "Test",
+      "path": "packs/test",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
